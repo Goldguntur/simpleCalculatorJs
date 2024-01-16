@@ -76,3 +76,13 @@ footer {
   font-size: 1.2rem;
   background-color: green;
 }
+
+@media screen and (max-width: 400px) {
+h1 {
+margin-bottom: 6px 
+}
+
+footer {
+margin-top: 0.5rem
+}
+}
