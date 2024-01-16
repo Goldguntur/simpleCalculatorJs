@@ -5,7 +5,11 @@
 }
 
 body {
-background: linear-gradient(90deg, rgba(255,0,0,1) 12%, rgba(44,255,0,0.8044871794871795) 43%, rgba(0,42,255,0.6009615384615384) 88%);
+background: rgb(34,193,195);
+background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
 }
 
 h1 {
