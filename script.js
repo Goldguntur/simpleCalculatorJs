@@ -2,8 +2,7 @@ const inputBtn = document.querySelectorAll('input[type="button"]');
 const display = document.querySelector("input[name='display']");
 
 inputBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    console.log(btn.value);
+  btn.addEventListener("click", () => {
     if (btn.value !== "=") {
       if (btn.value !== "AC") {
         display.value += btn.value;
