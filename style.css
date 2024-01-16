@@ -5,7 +5,6 @@
 }
 
 body {
-  background: rgb(255,0,0);
 background: linear-gradient(90deg, rgba(255,0,0,1) 12%, rgba(44,255,0,0.8044871794871795) 43%, rgba(0,42,255,0.6009615384615384) 88%);
 }
 
